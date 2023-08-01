@@ -9,7 +9,3 @@ g++ main.cpp -lboost_system -lboost_thread -pthread -o websocket_server
 # Step 3: Run the main.css interface file
 xdg-open main.css
 
-# Step 4: Wait for user input (Enter key press) to terminate the WebSocket server
-echo "Press Enter to stop the WebSocket server..."
-read
-killall websocket_server
